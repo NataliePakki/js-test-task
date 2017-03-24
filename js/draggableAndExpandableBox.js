@@ -13,7 +13,7 @@ class DraggableAndExpandableBox extends DraggableBox {
 				self.expandingButton.html("Expand");
 				this.element.removeClass(self.expandableClass);
 				//this.element.css({height: "80px"});
-				self.isExtended = false;
+				self.isExpanded = false;
 			}
 			else {
 				self.expandingButton.html("Collapse");
